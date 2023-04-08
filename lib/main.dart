@@ -54,7 +54,7 @@ class MyHomePage extends StatelessWidget {
         children: [
           SafeArea(
             child: NavigationRail(
-              extended: false,
+              extended: true,
               destinations: [
                 NavigationRailDestination(
                   icon: Icon(Icons.home),
